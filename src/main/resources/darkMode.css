@@ -1,0 +1,59 @@
+.root {
+    -fx-background-color: #1e1e1e;   /* dark background */
+    -fx-text-fill: #e0e0e0;          /* default text color */
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+.text-field {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #e0e0e0;
+}
+
+.button {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: #ffffff;
+}
+.button:hover {
+    -fx-background-color: #505050;
+}
+
+
+
+.top-menu-button {
+    -fx-background-color: #406ba3;
+    -fx-background-radius: 10px;
+    -fx-padding: 8px 16px;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+}
+.top-menu-button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.top-menu-button:hover {
+    -fx-background-color: #638cc2;
+}
+.top-menu-button:selected {
+    -fx-background-color: #7c56b0;
+}
+
+.selector-menu-button {
+    -fx-background-color: #3c8f52;
+    -fx-background-radius: 10px;
+    -fx-padding: 8px 16px;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+}
+.selector-menu-button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.selector-menu-button:hover {
+    -fx-background-color: #47ad62;
+}
+.selector-menu-button:selected {
+    -fx-background-color: #7c56b0;
+}

@@ -1,0 +1,60 @@
+.root {
+    -fx-background-color: #ffffff;   /* white background */
+    -fx-text-fill: #000000;          /* dark text */
+}
+
+.label {
+    -fx-text-fill: #000000;
+}
+
+.text-field {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #888888;   /* placeholder text */
+}
+
+.button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #000000;
+}
+.button:hover {
+    -fx-background-color: #cccccc;
+}
+
+
+
+.top-menu-button {
+    -fx-background-color: #406ba3;
+    -fx-background-radius: 10px;
+    -fx-padding: 8px 16px;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+}
+.top-menu-button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.top-menu-button:hover {
+    -fx-background-color: #638cc2;
+}
+.top-menu-button:selected {
+    -fx-background-color: #7c56b0;
+}
+
+.selector-menu-button {
+    -fx-background-color: #3c8f52;
+    -fx-background-radius: 10px;
+    -fx-padding: 8px 16px;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+}
+.selector-menu-button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.selector-menu-button:hover {
+    -fx-background-color: #47ad62;
+}
+.selector-menu-button:selected {
+    -fx-background-color: #7c56b0;
+}
