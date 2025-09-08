@@ -23,5 +23,12 @@ javafx {
 }
 
 application {
-    mainClass.set("GUImain") // replace with your package + main class
+    mainClass.set("GUImain")
+    mainClass = "GUImain"
+}
+
+tasks.jar {
+    manifest {
+        attributes["Main-Class"] = "GUImain"
+    }
 }

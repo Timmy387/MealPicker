@@ -9,7 +9,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import static SQL.rowChanges.insert;
 import GUIObjects.ToggleMenuButton;
-import javafx.stage.Popup;
 
 import java.sql.Connection;
 import static Utils.javaFXUtils.getToggleGroupText;
@@ -110,6 +109,6 @@ public class AddFoodFrame extends VBox {
         }
         foodName.clear();
         weight.getValueFactory().setValue(1);
-        // create popup
+        // create success popup
     }
 }
